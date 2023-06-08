@@ -1,6 +1,15 @@
-# weatherapp_starter_project
+# Cloud Bits - Another Weather App. Based on Material You
 
-A new Flutter project.
+Cloud Bits is a modern weather app built with Material You design principles. It provides accurate weather information using the [OpenWeather API](https://openweathermap.org/), ensuring up-to-date forecasts. The app leverages the power of [GetX](https://github.com/jonataslaw/getx) for efficient state management, enabling a smooth user experience.
+
+## Screenshots
+
+### Home Page
+<img src="screenshots/home_page_1.png" width="170"> <img src="screenshots/home_page_2.png" width="170"> <img src="screenshots/home_page_3.png" width="170"> <img src="screenshots/home_page_4.png" width="170">
+
+### Forecast
+<img src="screenshots/forecast_1.png" width="170"> <img src="screenshots/forecast_2.png" width="170"> <img src="screenshots/forecast_3.png" width="170"> <img src="screenshots/forecast_4.png" width="170">
+
 
 ## Getting Started
 
