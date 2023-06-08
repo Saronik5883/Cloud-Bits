@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp_starter_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:6:5-85
+13-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:6:22-82
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:7:5-66
+14-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+15-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\ssaro\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.weatherapp_starter_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\ssaro\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\ssaro\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.weatherapp_starter_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\ssaro\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\ssaro\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:9:4-38:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\ssaro\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:icon="@mipmap/launcher_icon"
+25-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:11:9-45
+26        android:label="Cloud Bits" >
+26-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:10:9-35
+27        <activity
+27-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:12:9-32:20
+28            android:name="com.example.weatherapp_starter_project.MainActivity"
+28-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:13:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:17:13-163
+30            android:exported="true"
+30-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:14:13-36
+31            android:hardwareAccelerated="true"
+31-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:18:13-47
+32            android:launchMode="singleTop"
+32-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:15:13-43
+33            android:theme="@style/LaunchTheme"
+33-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:16:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:19:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:24:13-27:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:25:15-70
+44                android:resource="@style/NormalTheme" />
+44-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:26:15-52
+45
+46            <intent-filter>
+46-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:28:13-31:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:29:17-68
+47-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:29:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:30:17-76
+49-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:30:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:35:9-37:33
+57            android:name="flutterEmbedding"
+57-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:36:13-44
+58            android:value="2" />
+58-->C:\Users\ssaro\StudioProjects\weatherapp_project\android\app\src\main\AndroidManifest.xml:37:13-30
+59
+60        <service
+60-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:56
+61            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+61-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-77
+62            android:enabled="true"
+62-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-35
+63            android:exported="false"
+63-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-37
+64            android:foregroundServiceType="location" />
+64-->[:geolocator_android] C:\Users\ssaro\StudioProjects\weatherapp_project\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-53
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\ssaro\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\ssaro\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\ssaro\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\ssaro\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\ssaro\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\ssaro\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\f568b3e0e4b3738147ed358a145ad2d6\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ssaro\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+81    </application>
+82
+83</manifest>
